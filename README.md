@@ -27,7 +27,7 @@ You should typically generate the core API calls from the latest release tag e.g
 ```
 cd zaproxy
 git fetch upstream -t
-git checkout tags/v2.13.0
+git checkout tags/v2.15.0
 ./gradlew generateGoApiEndpoints
 cd ..
 ```
