@@ -22,7 +22,13 @@ Most of the API code is generated from the ZAP java source code.
 
 To regenerate the API code you will need the repos [zaproxy](https://github.com/zaproxy/zaproxy) and [zap-extensions](https://github.com/zaproxy/zap-extensions) checked out at the same level as this one.
 
-You should typically generate the core API calls from the latest release tag e.g.:
+Cloning the Repositories:
+```
+git clone --recursive -j8 https://github.com/zaproxy/zaproxy.git
+git clone --recursive -j8 https://github.com/zaproxy/zap-extensions.git
+```
+
+Typically, you should generate the core API calls from the latest release tag. For example:
 
 ```
 cd zaproxy
@@ -32,7 +38,7 @@ git checkout tags/v2.15.0
 cd ..
 ```
 
-The add-on APIs can be generated from the zap-extensions `main` branch:
+The add-on APIs can be generated from the zap-extensions main branch:
 
 ```
 cd zap-extensions
