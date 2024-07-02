@@ -46,6 +46,12 @@ cd zap-extensions
 cd ..
 ```
 
+Finally, run the command to update the `interface.go`:
+
+```
+/bin/bash zap-api-go/zap/generate_interface.sh
+```
+
 The above commands will update the files in `zap-api-go/zap`.
 
 If any new files are created then they should be manually added to `zap-api-go/zap/interface.go` as per the existing files.
