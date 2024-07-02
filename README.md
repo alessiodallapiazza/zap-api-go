@@ -42,7 +42,6 @@ The add-on APIs can be generated from the zap-extensions main branch:
 
 ```
 cd zap-extensions
-git pull upstream main
 ./gradlew generateGoZapApiClientFiles --continue
 cd ..
 ```
